@@ -7,7 +7,7 @@ public class PlayerScript : MonoBehaviour
     private Vector3 playerPosition;
     public float playerSpeed = 0.5f;    //Скорость платформы
     public float boundary = 8.5f;    //Граница
-    private Renderer renderer;
+    private new Renderer renderer;
     // Start is called before the first frame update
     void Start()
     {

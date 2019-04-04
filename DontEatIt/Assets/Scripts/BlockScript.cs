@@ -24,19 +24,27 @@ public class BlockScript : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         int blocksCount = GameObject.FindGameObjectsWithTag("Block").Length;
-        Debug.Log(blocksCount);
         Vector3 pos = this.gameObject.transform.position;
         if (collision.gameObject.tag == "Ball")
         {
             hits--;
             if (hits == 0)
             {
-                if (source != null)
+                
+                if (blocksCount == 1)
                 {
-                    source.enabled = true;
-                    source.PlayOneShot(source.clip);
+                    destroyBlock();
+                    /*
+                     * Сделать переходы на следующие уровни
+                     */
+                    if (SceneManager.GetActiveScene().name == "Level1")
+                    {
+                        SceneManager.LoadScene("Level 2");
+                    }
+                } else
+                {
+                    destroyBlock();
                 }
-                Destroy(this.gameObject);
             }
         }
 
@@ -57,5 +65,15 @@ public class BlockScript : MonoBehaviour
             countdown = 1000;
         }
         countdown--;
+    }
+
+    void destroyBlock()
+    {
+        if (source != null)
+        {
+            source.enabled = true;
+            source.PlayOneShot(source.clip);
+        }
+        Destroy(this.gameObject);
     }
 }
