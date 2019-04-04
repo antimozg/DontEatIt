@@ -7,13 +7,13 @@ public class BallScript : MonoBehaviour
 
     private bool ballIsActive;
     private Vector3 ballPosition;
-    private Vector2 ballInitialForce;
     private float dX = 0;
     private float dY = 0;
     private float lastX = 0;
     private float lastY = 0;
     private Rigidbody2D rb;
     public float bottom = -10.0f;
+    public float speedMultipier = 10.0f;
     // GameObject
     public GameObject playerObject;
 
@@ -48,7 +48,7 @@ public class BallScript : MonoBehaviour
                 {
                     dX = 0.01f; 
                 }
-                rb.AddForce(new Vector2(dX*10, dY*10), ForceMode2D.Impulse);
+                rb.AddForce(new Vector2(dX * speedMultipier, dY* speedMultipier), ForceMode2D.Impulse);
                 // зададим активное состояние
                 ballIsActive = !ballIsActive;
             }
@@ -84,6 +84,5 @@ public class BallScript : MonoBehaviour
             lastX = this.gameObject.transform.position.x;
             lastY = this.gameObject.transform.position.y;
         }
-        Debug.Log(new Vector2(dX, dY));
     }
 }

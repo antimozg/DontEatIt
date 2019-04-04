@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class BlockScript : MonoBehaviour
 {
     public int hits;
@@ -55,6 +55,5 @@ public class BlockScript : MonoBehaviour
             countdown = 1000;
         }
         countdown--;
-
     }
 }
