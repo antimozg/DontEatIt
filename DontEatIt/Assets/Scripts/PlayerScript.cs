@@ -34,6 +34,6 @@ public class PlayerScript : MonoBehaviour
         {
             transform.position = playerPosition;
         }
-
+        
     }
 }

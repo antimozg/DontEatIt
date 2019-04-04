@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class BallScript : MonoBehaviour
 {
 
@@ -54,8 +55,6 @@ public class BallScript : MonoBehaviour
                 // устанавливаем позицию шара
                 transform.position = ballPosition;
             }
-
-
         }
 
         // проверка падения шара
