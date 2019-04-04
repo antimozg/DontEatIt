@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
     private Vector3 playerPosition;
-    public float playerSpeed;    //Скорость платформы
-    public float boundary;    //Граница
+    public float playerSpeed = 0.5f;    //Скорость платформы
+    public float boundary = 8.5f;    //Граница
     // Start is called before the first frame update
     void Start()
     {
