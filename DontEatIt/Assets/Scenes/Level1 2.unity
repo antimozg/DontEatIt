@@ -274,15 +274,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2108055980561628534, guid: 0c5bec69e7b8747a0914a73eb8f7d0b5,
+    - target: {fileID: 2108055980561628537, guid: 0c5bec69e7b8747a0914a73eb8f7d0b5,
         type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.16997863
-      objectReference: {fileID: 0}
-    - target: {fileID: 2108055980561628534, guid: 0c5bec69e7b8747a0914a73eb8f7d0b5,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.23049693
+      propertyPath: meatChance
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c5bec69e7b8747a0914a73eb8f7d0b5, type: 3}
@@ -673,6 +668,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hits: 1
+  meatChance: 0.2
+  meat: {fileID: 3032253310990253608, guid: 8ca9f12aaf90c44a98a2146878438605, type: 3}
 --- !u!61 &3415723834815200621
 BoxCollider2D:
   m_ObjectHideFlags: 0

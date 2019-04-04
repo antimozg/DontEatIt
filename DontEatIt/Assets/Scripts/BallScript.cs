@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class BallScript : MonoBehaviour
 {
 
@@ -9,6 +9,7 @@ public class BallScript : MonoBehaviour
     private Vector3 ballPosition;
     private Vector2 ballInitialForce;
     private Rigidbody2D rb;
+    public float bottom = -10.0f;
     // GameObject
     public GameObject playerObject;
 
@@ -55,19 +56,13 @@ public class BallScript : MonoBehaviour
                 transform.position = ballPosition;
             }
 
-            // проверка падения шара
-            if (ballIsActive && transform.position.y < -6)
-            {
-                ballIsActive = !ballIsActive;
-                ballPosition.x = playerObject.transform.position.x;
-                ballPosition.y = playerObject.transform.position.y + playerObject.transform.localScale.y /4 ;
-                transform.position = ballPosition;
-                rb.velocity = new Vector2(0, 0);
-                ballInitialForce = new Vector2(100.0f, 300.0f);
-                // переводим в неактивное состояние
-                ballIsActive = false;
-                GetComponent<Rigidbody2D>().isKinematic = false;
-            }
+
+        }
+
+        // проверка падения шара
+        if (ballIsActive && transform.position.y < bottom)
+        {
+            SceneManager.LoadScene(this.gameObject.scene.name);
         }
     }
 }

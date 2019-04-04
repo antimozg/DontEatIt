@@ -5,10 +5,12 @@ using UnityEngine;
 public class BlockScript : MonoBehaviour
 {
     public int hits;
+    public float meatChance = 0.2f;
+    public Transform meat;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -19,6 +21,7 @@ public class BlockScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Vector3 pos = this.gameObject.transform.position;
         if (collision.gameObject.tag == "Ball")
         {
             hits--;
@@ -26,6 +29,18 @@ public class BlockScript : MonoBehaviour
             {
                 Destroy(this.gameObject);
             }
+        }
+
+        float min = 0;
+        float max = 10000;
+        float mid = (max - min) / 2;
+        float range = max - min;
+        float left = mid - range * meatChance / 2;
+        float right = mid + range * meatChance / 2;
+        float gen = Random.Range(min, max);
+        if (gen >= left && gen <= right)
+        {
+            Instantiate(meat, pos, Quaternion.identity);
         }
     }
 }
