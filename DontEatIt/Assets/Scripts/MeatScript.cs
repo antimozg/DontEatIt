@@ -27,6 +27,7 @@ public class MeatScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            Scores.deaths++;
             SceneManager.LoadScene(this.gameObject.scene.name);
         }
     }

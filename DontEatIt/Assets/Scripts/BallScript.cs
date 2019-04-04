@@ -70,6 +70,7 @@ public class BallScript : MonoBehaviour
         // проверка падения шара
         if (ballIsActive && transform.position.y < bottom)
         {
+            Scores.deaths++;
             SceneManager.LoadScene(this.gameObject.scene.name);
         }
         if (lastX == 0 && lastY == 0)

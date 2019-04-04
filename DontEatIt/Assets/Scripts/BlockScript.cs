@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 public class BlockScript : MonoBehaviour
 {
     public int hits;
@@ -9,6 +10,7 @@ public class BlockScript : MonoBehaviour
     public GameObject meat;
     private int countdown = 0;
     public AudioSource source;
+    public int cost = 10;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +32,7 @@ public class BlockScript : MonoBehaviour
             hits--;
             if (hits == 0)
             {
-                
+                Scores.score += cost;
                 if (blocksCount == 1)
                 {
                     destroyBlock();
