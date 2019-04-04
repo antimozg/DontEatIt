@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
+    public float boundary = 8.5f;
     private Vector3 playerPosition;
     public float playerSpeed = 0.5f;    //Скорость платформы
     // Start is called before the first frame update
@@ -24,8 +25,15 @@ public class PlayerScript : MonoBehaviour
         }
 
         // обновим позицию платформы!
-        transform.position = playerPosition;
-
+        
+        if (playerPosition.x > -boundary)
+        {
+            transform.position = playerPosition;
+        }
+        if (playerPosition.x < boundary)
+        {
+            transform.position = playerPosition;
+        }
 
     }
 }

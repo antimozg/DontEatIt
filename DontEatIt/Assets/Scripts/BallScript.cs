@@ -55,12 +55,14 @@ public class BallScript : MonoBehaviour
                 transform.position = ballPosition;
             }
 
-            // проверка падения шара
-            if (ballIsActive && transform.position.y < -6)
-            {
-                Scene scene = SceneManager.GetActiveScene();
-                SceneManager.LoadScene(scene.name);
-            }
+
+        }
+
+        // проверка падения шара
+        if (ballIsActive && transform.position.y < -6)
+        {
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.name);
         }
     }
 }
