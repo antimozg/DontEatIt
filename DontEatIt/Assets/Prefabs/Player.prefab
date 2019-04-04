@@ -93,8 +93,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c73b6f479b044a72902f606a220611d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 0.5
-  boundary: 8.5
+  playerSpeed: 0.1
 --- !u!61 &5065870229815164434
 BoxCollider2D:
   m_ObjectHideFlags: 0
