@@ -29,11 +29,12 @@ public class BlockScript : MonoBehaviour
             hits--;
             if (hits == 0)
             {
-                Destroy(this.gameObject);
                 if (source != null)
                 {
+                    source.enabled = true;
                     source.PlayOneShot(source.clip);
                 }
+                Destroy(this.gameObject);
             }
         }
 
@@ -53,6 +54,7 @@ public class BlockScript : MonoBehaviour
             }
             countdown = 1000;
         }
+        countdown--;
 
     }
 }

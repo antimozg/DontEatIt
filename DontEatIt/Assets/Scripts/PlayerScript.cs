@@ -7,9 +7,11 @@ public class PlayerScript : MonoBehaviour
     private Vector3 playerPosition;
     public float playerSpeed = 0.5f;    //Скорость платформы
     public float boundary = 8.5f;    //Граница
+    private Renderer renderer;
     // Start is called before the first frame update
     void Start()
     {
+        renderer = this.gameObject.GetComponent<Renderer>();
         playerPosition = gameObject.transform.position;
     }
 
@@ -26,14 +28,15 @@ public class PlayerScript : MonoBehaviour
 
         // обновим позицию платформы!
         transform.position = playerPosition;
-
-        if (playerPosition.x < -boundary)
+        float leftLimit = -boundary + renderer.bounds.size.x / 2; // Левая граница игрового поля Заданная граница + половина корзинки
+        float rightLimit = boundary - renderer.bounds.size.x / 2; // Правая граница
+        if (playerPosition.x < leftLimit)
         {
-            transform.position = new Vector3(-boundary, playerPosition.y, playerPosition.z);
+            transform.position = new Vector3(leftLimit, playerPosition.y, playerPosition.z);
         }
-        if (playerPosition.x > boundary)
+        if (playerPosition.x > rightLimit)
         {
-            transform.position = new Vector3(boundary, playerPosition.y, playerPosition.z);
+            transform.position = new Vector3(rightLimit, playerPosition.y, playerPosition.z);
         }
     }
 }

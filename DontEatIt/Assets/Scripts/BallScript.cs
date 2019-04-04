@@ -20,8 +20,6 @@ public class BallScript : MonoBehaviour
     // используйте этот метод для инициализации
     void Start()
     {
-        // создаем силу
-        ballInitialForce = new Vector2(150.0f, 450.0f);
 
         // переводим в неактивное состояние
         ballIsActive = false;
@@ -44,20 +42,26 @@ public class BallScript : MonoBehaviour
             if (!ballIsActive)
             {
                 // сброс всех сил
-                rb.isKinematic = false;
                 // применим силу
-                rb.AddForce(ballInitialForce);
+                dY = 1.0f;
+                if (dX == 0)
+                {
+                    dX = 0.01f; 
+                }
+                rb.AddForce(new Vector2(dX*10, dY*10), ForceMode2D.Impulse);
                 // зададим активное состояние
                 ballIsActive = !ballIsActive;
             }
 
             if (!ballIsActive && playerObject != null)
             {
+                /*
                 // задаем новую позицию шарика
                 ballPosition.x = playerObject.transform.position.x;
 
                 // устанавливаем позицию шара
                 transform.position = ballPosition;
+                */
             }
 
 
@@ -68,15 +72,18 @@ public class BallScript : MonoBehaviour
         {
             SceneManager.LoadScene(this.gameObject.scene.name);
         }
-        if (lastX == 0)
+        if (lastX == 0 && lastY == 0)
         {
-            lastX = this.ballPosition.x;
-            lastY = this.ballPosition.y;
+            lastX = this.gameObject.transform.position.x;
+            lastY = this.gameObject.transform.position.y;
+
         } else
         {
-            dX = lastX - this.ballPosition.x;
-            dY = lastY - this.ballPosition.y;
-            rb.AddForce(new Vector3(dX, dY, 0));
+            dX = lastX - this.gameObject.transform.position.x;
+            dY = lastY - this.gameObject.transform.position.y;
+            lastX = this.gameObject.transform.position.x;
+            lastY = this.gameObject.transform.position.y;
         }
+        Debug.Log(new Vector2(dX, dY));
     }
 }
