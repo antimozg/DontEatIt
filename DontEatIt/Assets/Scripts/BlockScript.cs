@@ -6,7 +6,8 @@ public class BlockScript : MonoBehaviour
 {
     public int hits;
     public float meatChance = 0.2f;
-    public Transform meat;
+    public GameObject meat;
+    private int countdown = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,16 +32,22 @@ public class BlockScript : MonoBehaviour
             }
         }
 
-        float min = 0;
-        float max = 10000;
-        float mid = (max - min) / 2;
-        float range = max - min;
-        float left = mid - range * meatChance / 2;
-        float right = mid + range * meatChance / 2;
-        float gen = Random.Range(min, max);
-        if (gen >= left && gen <= right)
+
+        if (countdown == 0)
         {
-            Instantiate(meat, pos, Quaternion.identity);
+            float min = 0;
+            float max = 10000;
+            float mid = (max - min) / 2;
+            float range = max - min;
+            float left = mid - range * meatChance / 2;
+            float right = mid + range * meatChance / 2;
+            float gen = Random.Range(min, max);
+            if (gen >= left && gen <= right)
+            {
+                Instantiate(meat, pos, Quaternion.identity);
+            }
+            countdown = 1000;
         }
+
     }
 }

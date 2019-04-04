@@ -8,6 +8,10 @@ public class BallScript : MonoBehaviour
     private bool ballIsActive;
     private Vector3 ballPosition;
     private Vector2 ballInitialForce;
+    private float dX = 0;
+    private float dY = 0;
+    private float lastX = 0;
+    private float lastY = 0;
     private Rigidbody2D rb;
     public float bottom = -10.0f;
     // GameObject
@@ -17,7 +21,7 @@ public class BallScript : MonoBehaviour
     void Start()
     {
         // создаем силу
-        ballInitialForce = new Vector2(100.0f, 300.0f);
+        ballInitialForce = new Vector2(150.0f, 450.0f);
 
         // переводим в неактивное состояние
         ballIsActive = false;
@@ -63,6 +67,16 @@ public class BallScript : MonoBehaviour
         if (ballIsActive && transform.position.y < bottom)
         {
             SceneManager.LoadScene(this.gameObject.scene.name);
+        }
+        if (lastX == 0)
+        {
+            lastX = this.ballPosition.x;
+            lastY = this.ballPosition.y;
+        } else
+        {
+            dX = lastX - this.ballPosition.x;
+            dY = lastY - this.ballPosition.y;
+            rb.AddForce(new Vector3(dX, dY, 0));
         }
     }
 }

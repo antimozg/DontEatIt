@@ -1272,7 +1272,7 @@ PrefabInstance:
     - target: {fileID: 2817795463857940061, guid: 2d8fc255ef2004cbf82962170749a821,
         type: 3}
       propertyPath: playerSpeed
-      value: 0.2
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d8fc255ef2004cbf82962170749a821, type: 3}
@@ -2188,6 +2188,11 @@ PrefabInstance:
       propertyPath: playerObject
       value: 
       objectReference: {fileID: 85083989}
+    - target: {fileID: 6065246429758727189, guid: e610683b9169c3a4a8482deb78b82974,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e610683b9169c3a4a8482deb78b82974, type: 3}
 --- !u!1001 &6113767094617185113
