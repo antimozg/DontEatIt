@@ -23,6 +23,8 @@ public class BlockScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        int blocksCount = GameObject.FindGameObjectsWithTag("Block").Length;
+        Debug.Log(blocksCount);
         Vector3 pos = this.gameObject.transform.position;
         if (collision.gameObject.tag == "Ball")
         {

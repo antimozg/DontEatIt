@@ -84,5 +84,10 @@ public class BallScript : MonoBehaviour
             lastX = this.gameObject.transform.position.x;
             lastY = this.gameObject.transform.position.y;
         }
+        float speed = Mathf.Sqrt(rb.velocity.x * rb.velocity.x + rb.velocity.y * rb.velocity.y); //Вычисляем скорость мяча
+        if (speed < speedMultipier) //Если скорость меньше заданной, то увеличиваем
+        {
+            rb.AddForce(new Vector2(-dX, -dY), ForceMode2D.Impulse);
+        }
     }
 }

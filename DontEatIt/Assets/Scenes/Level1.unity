@@ -124,6 +124,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pepper Block (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7407939657353421311, guid: c6741b024b50f2e47bb5884334cf0675,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
+      objectReference: {fileID: 0}
     - target: {fileID: 7407939657353421299, guid: c6741b024b50f2e47bb5884334cf0675,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -240,6 +245,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melon Variant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3888040602216658693, guid: cbafed80c797b4d46b63f5f4451eecd6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
+      objectReference: {fileID: 0}
     - target: {fileID: 3888040602216658697, guid: cbafed80c797b4d46b63f5f4451eecd6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -324,6 +334,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lemon Variant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7210651286282273006, guid: a8e6d5a045f305f4ba7d22f48f165596,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
+      objectReference: {fileID: 0}
     - target: {fileID: 7921604523623458588, guid: a8e6d5a045f305f4ba7d22f48f165596,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -407,6 +422,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Kiwi Variant (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268610979494687553, guid: fa7f5247e36f63f449ba3a613355db6f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 5610425440639430306, guid: fa7f5247e36f63f449ba3a613355db6f,
         type: 3}
@@ -655,6 +675,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block
       objectReference: {fileID: 0}
+    - target: {fileID: 2108055980561628538, guid: 0c5bec69e7b8747a0914a73eb8f7d0b5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
+      objectReference: {fileID: 0}
     - target: {fileID: 2108055980561628534, guid: 0c5bec69e7b8747a0914a73eb8f7d0b5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -812,6 +837,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Kiwi Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268610979494687553, guid: fa7f5247e36f63f449ba3a613355db6f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 5610425440639430306, guid: fa7f5247e36f63f449ba3a613355db6f,
         type: 3}
@@ -979,6 +1009,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pepper Block (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7407939657353421311, guid: c6741b024b50f2e47bb5884334cf0675,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
+      objectReference: {fileID: 0}
     - target: {fileID: 7407939657353421299, guid: c6741b024b50f2e47bb5884334cf0675,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1063,6 +1098,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pumpkin (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5034511386671400392, guid: 50479dcd417876f4f985a620922a8657,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
+      objectReference: {fileID: 0}
     - target: {fileID: 5034511386671400388, guid: 50479dcd417876f4f985a620922a8657,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1142,6 +1182,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tomato (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2007399766189278272, guid: c15ad4a09cb2d644abc692e1e69eb6c5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
+      objectReference: {fileID: 0}
     - target: {fileID: 7870792779735390627, guid: c15ad4a09cb2d644abc692e1e69eb6c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1215,6 +1260,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Kiwi Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268610979494687553, guid: fa7f5247e36f63f449ba3a613355db6f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 5610425440639430306, guid: fa7f5247e36f63f449ba3a613355db6f,
         type: 3}
@@ -1369,6 +1419,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bread (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075104035496642474, guid: 6dd86ce2e02dae349938c8e984f135ba,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 8649886888584387145, guid: 6dd86ce2e02dae349938c8e984f135ba,
         type: 3}
@@ -1529,6 +1584,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pineapple
       objectReference: {fileID: 0}
+    - target: {fileID: 1075104035496642474, guid: 6dd86ce2e02dae349938c8e984f135ba,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
+      objectReference: {fileID: 0}
     - target: {fileID: 8649886888584387145, guid: 6dd86ce2e02dae349938c8e984f135ba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1619,6 +1679,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bread (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1075104035496642474, guid: 6dd86ce2e02dae349938c8e984f135ba,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
+      objectReference: {fileID: 0}
     - target: {fileID: 8649886888584387145, guid: 6dd86ce2e02dae349938c8e984f135ba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1702,6 +1767,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Block (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108055980561628538, guid: 0c5bec69e7b8747a0914a73eb8f7d0b5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 2108055980561628534, guid: 0c5bec69e7b8747a0914a73eb8f7d0b5,
         type: 3}
@@ -1861,6 +1931,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Apple
       objectReference: {fileID: 0}
+    - target: {fileID: 4897354855947234295, guid: f6c7f9b5a3d1f7e499224d693249f083,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
+      objectReference: {fileID: 0}
     - target: {fileID: 4897354855947234299, guid: f6c7f9b5a3d1f7e499224d693249f083,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1940,6 +2015,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melon Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3888040602216658693, guid: cbafed80c797b4d46b63f5f4451eecd6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
+      objectReference: {fileID: 0}
     - target: {fileID: 3888040602216658697, guid: cbafed80c797b4d46b63f5f4451eecd6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2013,6 +2093,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 'Lemon Variant '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210651286282273006, guid: a8e6d5a045f305f4ba7d22f48f165596,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 7921604523623458588, guid: a8e6d5a045f305f4ba7d22f48f165596,
         type: 3}
@@ -2092,6 +2177,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pumpkin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5034511386671400392, guid: 50479dcd417876f4f985a620922a8657,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 5034511386671400388, guid: 50479dcd417876f4f985a620922a8657,
         type: 3}
@@ -2177,6 +2267,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Orange
       objectReference: {fileID: 0}
+    - target: {fileID: 1735039579887939386, guid: f2a02dfa808c2be4bbcf7531b7f8a9c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
+      objectReference: {fileID: 0}
     - target: {fileID: 7995299365596623577, guid: f2a02dfa808c2be4bbcf7531b7f8a9c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2251,6 +2346,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ' background'
       objectReference: {fileID: 0}
+    - target: {fileID: 749555668514267828, guid: 175e94abfb86e374bbd6d4268cf94883,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
+      objectReference: {fileID: 0}
     - target: {fileID: 6300361056426719291, guid: 175e94abfb86e374bbd6d4268cf94883,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2319,6 +2419,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bread
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075104035496642474, guid: 6dd86ce2e02dae349938c8e984f135ba,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 8649886888584387145, guid: 6dd86ce2e02dae349938c8e984f135ba,
         type: 3}
@@ -2464,6 +2569,11 @@ PrefabInstance:
       propertyPath: playerObject
       value: 
       objectReference: {fileID: 85083989}
+    - target: {fileID: 6065246429758727188, guid: e610683b9169c3a4a8482deb78b82974,
+        type: 3}
+      propertyPath: speedMultipier
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6065246429758727189, guid: e610683b9169c3a4a8482deb78b82974,
         type: 3}
       propertyPath: m_GravityScale
@@ -2482,6 +2592,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 'Kiwi Variant '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268610979494687553, guid: fa7f5247e36f63f449ba3a613355db6f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 5610425440639430306, guid: fa7f5247e36f63f449ba3a613355db6f,
         type: 3}
@@ -2557,6 +2672,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tomato
       objectReference: {fileID: 0}
+    - target: {fileID: 2007399766189278272, guid: c15ad4a09cb2d644abc692e1e69eb6c5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
+      objectReference: {fileID: 0}
     - target: {fileID: 7870792779735390627, guid: c15ad4a09cb2d644abc692e1e69eb6c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2630,6 +2750,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 'Pepper Block '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407939657353421311, guid: c6741b024b50f2e47bb5884334cf0675,
+        type: 3}
+      propertyPath: m_TagString
+      value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 7407939657353421299, guid: c6741b024b50f2e47bb5884334cf0675,
         type: 3}
