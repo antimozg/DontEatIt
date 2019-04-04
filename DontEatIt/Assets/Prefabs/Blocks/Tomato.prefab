@@ -122,3 +122,4 @@ MonoBehaviour:
   hits: 1
   meatChance: 0.2
   meat: {fileID: 3032253310990253608, guid: 8ca9f12aaf90c44a98a2146878438605, type: 3}
+  source: {fileID: 7803608605921611207, guid: a6e83780665f66a498b08818185959da, type: 3}

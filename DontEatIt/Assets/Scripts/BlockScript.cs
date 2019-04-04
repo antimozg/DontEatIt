@@ -8,6 +8,7 @@ public class BlockScript : MonoBehaviour
     public float meatChance = 0.2f;
     public GameObject meat;
     private int countdown = 0;
+    public AudioSource source;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +29,11 @@ public class BlockScript : MonoBehaviour
             hits--;
             if (hits == 0)
             {
+                if (source != null)
+                {
+                    source.enabled = true;
+                    source.PlayOneShot(source.clip);
+                }
                 Destroy(this.gameObject);
             }
         }
@@ -48,6 +54,7 @@ public class BlockScript : MonoBehaviour
             }
             countdown = 1000;
         }
+        countdown--;
 
     }
 }
