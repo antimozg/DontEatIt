@@ -189,6 +189,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2.7
       objectReference: {fileID: 0}
+    - target: {fileID: 6065246429758727188, guid: e610683b9169c3a4a8482deb78b82974,
+        type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 219284973}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e610683b9169c3a4a8482deb78b82974, type: 3}
 --- !u!1001 &219284972
@@ -260,6 +265,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d8fc255ef2004cbf82962170749a821, type: 3}
+--- !u!1 &219284973 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 612776636945425118, guid: 2d8fc255ef2004cbf82962170749a821,
+    type: 3}
+  m_PrefabInstance: {fileID: 219284972}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &459538535
 GameObject:
   m_ObjectHideFlags: 0
