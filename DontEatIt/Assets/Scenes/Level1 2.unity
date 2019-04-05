@@ -2373,12 +2373,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: ' background'
 <<<<<<< HEAD:DontEatIt/Assets/Scenes/Level1 2.unity
+<<<<<<< HEAD:DontEatIt/Assets/Scenes/Level1 2.unity
 =======
+=======
+>>>>>>> parent of e153630... Изменение счета:DontEatIt/Assets/Scenes/Level1.unity
       objectReference: {fileID: 0}
     - target: {fileID: 749555668514267828, guid: 175e94abfb86e374bbd6d4268cf94883,
         type: 3}
       propertyPath: m_TagString
       value: Block
+<<<<<<< HEAD:DontEatIt/Assets/Scenes/Level1 2.unity
+>>>>>>> parent of e153630... Изменение счета:DontEatIt/Assets/Scenes/Level1.unity
+=======
 >>>>>>> parent of e153630... Изменение счета:DontEatIt/Assets/Scenes/Level1.unity
       objectReference: {fileID: 0}
     - target: {fileID: 6300361056426719291, guid: 175e94abfb86e374bbd6d4268cf94883,
