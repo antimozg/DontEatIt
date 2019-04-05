@@ -34,7 +34,8 @@ public class BlockScript : MonoBehaviour
                     source.enabled = true;
                     source.PlayOneShot(source.clip);
                 }
-                Destroy(this.gameObject);
+               Scores.score+=10;
+               Destroy(this.gameObject);
             }
         }
 
