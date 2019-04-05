@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class BlockScript : MonoBehaviour
 {
     public int hits;
@@ -23,19 +23,35 @@ public class BlockScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        int blocksCount = GameObject.FindGameObjectsWithTag("Block").Length;
         Vector3 pos = this.gameObject.transform.position;
         if (collision.gameObject.tag == "Ball")
         {
             hits--;
             if (hits == 0)
             {
-                if (source != null)
+                if (blocksCount == 1)
                 {
                     source.enabled = true;
                     source.PlayOneShot(source.clip);
+                    destroyBlock();
+                    /*
+                     * Сделать переходы на следующие уровни
+                     */
+                    if (SceneManager.GetActiveScene().name == "Level1")
+                    {
+                        SceneManager.LoadScene("Level 2");
+                    } else if (SceneManager.GetActiveScene().name == "Level 2") {
+                        SceneManager.LoadScene("Level 3");
+                    } else if (SceneManager.GetActiveScene().name == "Level 3") {
+                        SceneManager.LoadScene("Level 4");
+                    } else if (SceneManager.GetActiveScene().name == "Level 4") {
+                        SceneManager.LoadScene("Level 5");
+                    }
+                } else
+                {
+                    destroyBlock();
                 }
-               Scores.score+=10;
-               Destroy(this.gameObject);
             }
         }
 
@@ -57,5 +73,16 @@ public class BlockScript : MonoBehaviour
         }
         countdown--;
 
+    }
+
+    void destroyBlock()
+    {
+        if (source != null)
+        {
+            source.enabled = true;
+            source.PlayOneShot(source.clip);
+        }
+        Scores.score+=10;
+        Destroy(this.gameObject);
     }
 }
