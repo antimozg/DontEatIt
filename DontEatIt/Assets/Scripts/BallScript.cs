@@ -14,6 +14,7 @@ public class BallScript : MonoBehaviour
     private float lastY = 0;
     private Rigidbody2D rb;
     public float bottom = -10.0f;
+    public float speedMultipier = 10.0f;
     // GameObject
     public GameObject playerObject;
 
@@ -70,6 +71,7 @@ public class BallScript : MonoBehaviour
         // проверка падения шара
         if (ballIsActive && transform.position.y < bottom)
         {
+            Scores.deaths++;
             SceneManager.LoadScene(this.gameObject.scene.name);
         }
         if (lastX == 0 && lastY == 0)
@@ -84,6 +86,11 @@ public class BallScript : MonoBehaviour
             lastX = this.gameObject.transform.position.x;
             lastY = this.gameObject.transform.position.y;
         }
-        Debug.Log(new Vector2(dX, dY));
+
+        float speed = Mathf.Sqrt(rb.velocity.x * rb.velocity.x + rb.velocity.y * rb.velocity.y); //Вычисляем скорость мяча
+        if (speed < speedMultipier) //Если скорость меньше заданной, то увеличиваем
+        {
+            rb.AddForce(new Vector2(-dX, -dY), ForceMode2D.Impulse);
+        }
     }
 }
