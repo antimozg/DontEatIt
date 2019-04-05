@@ -124,11 +124,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pepper Block (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 7407939657353421311, guid: c6741b024b50f2e47bb5884334cf0675,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
-      objectReference: {fileID: 0}
     - target: {fileID: 7407939657353421299, guid: c6741b024b50f2e47bb5884334cf0675,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -245,11 +240,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melon Variant (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 3888040602216658693, guid: cbafed80c797b4d46b63f5f4451eecd6,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
-      objectReference: {fileID: 0}
     - target: {fileID: 3888040602216658697, guid: cbafed80c797b4d46b63f5f4451eecd6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -334,11 +324,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lemon Variant (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 7210651286282273006, guid: a8e6d5a045f305f4ba7d22f48f165596,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
-      objectReference: {fileID: 0}
     - target: {fileID: 7921604523623458588, guid: a8e6d5a045f305f4ba7d22f48f165596,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -422,11 +407,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Kiwi Variant (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4268610979494687553, guid: fa7f5247e36f63f449ba3a613355db6f,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 5610425440639430306, guid: fa7f5247e36f63f449ba3a613355db6f,
         type: 3}
@@ -591,11 +571,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melon Variant (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 3888040602216658693, guid: cbafed80c797b4d46b63f5f4451eecd6,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
-      objectReference: {fileID: 0}
     - target: {fileID: 3888040602216658697, guid: cbafed80c797b4d46b63f5f4451eecd6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -678,11 +653,6 @@ PrefabInstance:
     - target: {fileID: 2108055980561628538, guid: 0c5bec69e7b8747a0914a73eb8f7d0b5,
         type: 3}
       propertyPath: m_Name
-      value: Block
-      objectReference: {fileID: 0}
-    - target: {fileID: 2108055980561628538, guid: 0c5bec69e7b8747a0914a73eb8f7d0b5,
-        type: 3}
-      propertyPath: m_TagString
       value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 2108055980561628534, guid: 0c5bec69e7b8747a0914a73eb8f7d0b5,
@@ -843,11 +813,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kiwi Variant (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 4268610979494687553, guid: fa7f5247e36f63f449ba3a613355db6f,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
-      objectReference: {fileID: 0}
     - target: {fileID: 5610425440639430306, guid: fa7f5247e36f63f449ba3a613355db6f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -920,72 +885,6 @@ PrefabInstance:
       objectReference: {fileID: 1936921843}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa7f5247e36f63f449ba3a613355db6f, type: 3}
---- !u!1 &1463446756
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1463446759}
-  - component: {fileID: 1463446758}
-  - component: {fileID: 1463446757}
-  m_Layer: 0
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1463446757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1463446756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
---- !u!114 &1463446758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1463446756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &1463446759
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1463446756}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 34
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1479450331
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,7 +921,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.9843138, g: 0.97647065, b: 0.86666673, a: 1}
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -1079,11 +978,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pepper Block (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7407939657353421311, guid: c6741b024b50f2e47bb5884334cf0675,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 7407939657353421299, guid: c6741b024b50f2e47bb5884334cf0675,
         type: 3}
@@ -1169,11 +1063,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pumpkin (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 5034511386671400392, guid: 50479dcd417876f4f985a620922a8657,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
-      objectReference: {fileID: 0}
     - target: {fileID: 5034511386671400388, guid: 50479dcd417876f4f985a620922a8657,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1253,11 +1142,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tomato (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 2007399766189278272, guid: c15ad4a09cb2d644abc692e1e69eb6c5,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
-      objectReference: {fileID: 0}
     - target: {fileID: 7870792779735390627, guid: c15ad4a09cb2d644abc692e1e69eb6c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1331,11 +1215,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Kiwi Variant (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4268610979494687553, guid: fa7f5247e36f63f449ba3a613355db6f,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 5610425440639430306, guid: fa7f5247e36f63f449ba3a613355db6f,
         type: 3}
@@ -1490,11 +1369,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bread (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1075104035496642474, guid: 6dd86ce2e02dae349938c8e984f135ba,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 8649886888584387145, guid: 6dd86ce2e02dae349938c8e984f135ba,
         type: 3}
@@ -1655,11 +1529,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pineapple
       objectReference: {fileID: 0}
-    - target: {fileID: 1075104035496642474, guid: 6dd86ce2e02dae349938c8e984f135ba,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
-      objectReference: {fileID: 0}
     - target: {fileID: 8649886888584387145, guid: 6dd86ce2e02dae349938c8e984f135ba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1750,11 +1619,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bread (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 1075104035496642474, guid: 6dd86ce2e02dae349938c8e984f135ba,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
-      objectReference: {fileID: 0}
     - target: {fileID: 8649886888584387145, guid: 6dd86ce2e02dae349938c8e984f135ba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1838,11 +1702,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Block (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2108055980561628538, guid: 0c5bec69e7b8747a0914a73eb8f7d0b5,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 2108055980561628534, guid: 0c5bec69e7b8747a0914a73eb8f7d0b5,
         type: 3}
@@ -2002,11 +1861,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Apple
       objectReference: {fileID: 0}
-    - target: {fileID: 4897354855947234295, guid: f6c7f9b5a3d1f7e499224d693249f083,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
-      objectReference: {fileID: 0}
     - target: {fileID: 4897354855947234299, guid: f6c7f9b5a3d1f7e499224d693249f083,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2086,11 +1940,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Melon Variant
       objectReference: {fileID: 0}
-    - target: {fileID: 3888040602216658693, guid: cbafed80c797b4d46b63f5f4451eecd6,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
-      objectReference: {fileID: 0}
     - target: {fileID: 3888040602216658697, guid: cbafed80c797b4d46b63f5f4451eecd6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2165,11 +2014,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Lemon Variant '
       objectReference: {fileID: 0}
-    - target: {fileID: 7210651286282273006, guid: a8e6d5a045f305f4ba7d22f48f165596,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
-      objectReference: {fileID: 0}
     - target: {fileID: 7921604523623458588, guid: a8e6d5a045f305f4ba7d22f48f165596,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2237,145 +2081,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8e6d5a045f305f4ba7d22f48f165596, type: 3}
---- !u!1001 &3945179975368563928
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3945179975100099805, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_Name
-      value: ScoreCanvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 33
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179975100099793, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179973621493733, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 280
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179973621493733, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 436
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179974431207527, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -216
-      objectReference: {fileID: 0}
-    - target: {fileID: 3945179974431207527, guid: b8ed98f23a310b94c87d8966e2a2b442,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 280
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b8ed98f23a310b94c87d8966e2a2b442, type: 3}
 --- !u!1001 &4977170926273115903
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2387,11 +2092,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pumpkin
-      objectReference: {fileID: 0}
-    - target: {fileID: 5034511386671400392, guid: 50479dcd417876f4f985a620922a8657,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 5034511386671400388, guid: 50479dcd417876f4f985a620922a8657,
         type: 3}
@@ -2477,11 +2177,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Orange
       objectReference: {fileID: 0}
-    - target: {fileID: 1735039579887939386, guid: f2a02dfa808c2be4bbcf7531b7f8a9c6,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
-      objectReference: {fileID: 0}
     - target: {fileID: 7995299365596623577, guid: f2a02dfa808c2be4bbcf7531b7f8a9c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2554,12 +2249,7 @@ PrefabInstance:
     - target: {fileID: 749555668514267828, guid: 175e94abfb86e374bbd6d4268cf94883,
         type: 3}
       propertyPath: m_Name
-      value: background
-      objectReference: {fileID: 0}
-    - target: {fileID: 749555668514267828, guid: 175e94abfb86e374bbd6d4268cf94883,
-        type: 3}
-      propertyPath: m_TagString
-      value: Untagged
+      value: ' background'
       objectReference: {fileID: 0}
     - target: {fileID: 6300361056426719291, guid: 175e94abfb86e374bbd6d4268cf94883,
         type: 3}
@@ -2629,11 +2319,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bread
-      objectReference: {fileID: 0}
-    - target: {fileID: 1075104035496642474, guid: 6dd86ce2e02dae349938c8e984f135ba,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 8649886888584387145, guid: 6dd86ce2e02dae349938c8e984f135ba,
         type: 3}
@@ -2779,11 +2464,6 @@ PrefabInstance:
       propertyPath: playerObject
       value: 
       objectReference: {fileID: 85083989}
-    - target: {fileID: 6065246429758727188, guid: e610683b9169c3a4a8482deb78b82974,
-        type: 3}
-      propertyPath: speedMultipier
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 6065246429758727189, guid: e610683b9169c3a4a8482deb78b82974,
         type: 3}
       propertyPath: m_GravityScale
@@ -2802,11 +2482,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 'Kiwi Variant '
-      objectReference: {fileID: 0}
-    - target: {fileID: 4268610979494687553, guid: fa7f5247e36f63f449ba3a613355db6f,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 5610425440639430306, guid: fa7f5247e36f63f449ba3a613355db6f,
         type: 3}
@@ -2882,11 +2557,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tomato
       objectReference: {fileID: 0}
-    - target: {fileID: 2007399766189278272, guid: c15ad4a09cb2d644abc692e1e69eb6c5,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
-      objectReference: {fileID: 0}
     - target: {fileID: 7870792779735390627, guid: c15ad4a09cb2d644abc692e1e69eb6c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2960,11 +2630,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 'Pepper Block '
-      objectReference: {fileID: 0}
-    - target: {fileID: 7407939657353421311, guid: c6741b024b50f2e47bb5884334cf0675,
-        type: 3}
-      propertyPath: m_TagString
-      value: Block
       objectReference: {fileID: 0}
     - target: {fileID: 7407939657353421299, guid: c6741b024b50f2e47bb5884334cf0675,
         type: 3}
