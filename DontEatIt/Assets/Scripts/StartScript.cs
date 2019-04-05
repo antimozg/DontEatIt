@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class StartScript : MonoBehaviour
 {
     // Start is called before the first frame update
-    public void Start()
+    void Start()
     {
         SceneManager.LoadScene("Level1");
     }
@@ -14,6 +14,10 @@ public class StartScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+         
+    }
+
+    public void onStartClick() {
+        SceneManager.LoadScene("Level1");
     }
 }

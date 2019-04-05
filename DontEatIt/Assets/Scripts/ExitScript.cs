@@ -15,4 +15,8 @@ public class ExitScript : MonoBehaviour
     {
         
     }
+
+    public void onExitClick() {
+        Application.Quit();
+    }
 }
